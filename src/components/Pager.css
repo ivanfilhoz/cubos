@@ -1,0 +1,38 @@
+.pager {
+  position: relative;
+  display: flex;
+  font: 16pt Abel;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.pager span {
+  padding: .5em;
+  color: #2B5295;
+  cursor: pointer;
+}
+
+.pager span.current {
+  position: relative;
+  padding: 0;
+  top: -5px;
+  text-align: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+  background-color: #2B5295;
+  color: #00EEE7;
+  font: 100 18pt Abel;
+  line-height: 60px;
+}
+
+.pager span.current:before {
+  content: ' ';
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  right: 2px;
+  bottom: 2px;
+  border: #00EEE7 4px solid;
+  border-radius: 28px;
+}

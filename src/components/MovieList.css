@@ -1,0 +1,76 @@
+.movie-list .item {
+  display: block;
+  background-color: #EAEAEA;
+  margin-bottom: 3em;
+  cursor: pointer;
+  color: inherit;
+  text-decoration: none;
+}
+
+.movie-list img {
+  display: block;
+  width: 100%;
+}
+
+.movie-list header {
+  background-color: #2B5295;
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.movie-list h2 {
+  text-align: left;
+  font-size: 28pt;
+  padding-left: 120px;
+  padding-bottom: 0;
+  color: #00EEE7;
+}
+
+.movie-list .vote {
+  position: absolute;
+  left: 20px;
+  bottom: -40px;
+  width: 80px;
+  height: 80px;
+  border-radius: 40px;
+  background-color: #2B5295;
+  color: #00EEE7;
+  font: 100 18pt Abel;
+  line-height: 80px;
+  text-align: center;
+}
+
+.movie-list .vote:before {
+  content: ' ';
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  right: 3px;
+  bottom: 3px;
+  border: #00EEE7 5px solid;
+  border-radius: 37px;
+}
+
+.movie-list .release-date {
+  position: absolute;
+  bottom: -1.5em;
+  left: 120px;
+  font: 100 14pt Abel;
+  color: #AAAAAA;
+}
+
+.movie-list .overview {
+  padding: 1em 2em 2em 2em;
+  line-height: 1.25em;
+}
+
+@media screen and (min-width: 35.5em) {
+  .movie-list .item {
+    display: flex;
+    align-items: flex-start;
+  }
+
+  .movie-list img {
+    width: 200px;
+  }
+}

@@ -1,0 +1,31 @@
+body {
+  font: 12pt Lato;
+  color: #5F5F5F;
+}
+
+header {
+  font-family: Abel;
+  font-weight: 100;
+}
+
+#root > header {
+  background-color: #2B5295;
+  text-align: center;
+}
+
+h1, h2 {
+  margin: 0;
+  padding: .5em;
+  font-weight: inherit;
+}
+
+h1 {
+  font-size: 32pt;
+  color: #00EEE7;
+}
+
+main > section {
+  max-width: 64em;
+  padding: 0 3em;
+  margin: 0 auto;
+}
