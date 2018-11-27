@@ -49,6 +49,7 @@ class MovieTrailerFetch extends Component {
         }
       }>
         <iframe
+          allowFullScreen
           src={`http://www.youtube.com/embed/${videos[0].key}`}
           style={
             {
