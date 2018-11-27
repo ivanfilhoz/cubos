@@ -1,5 +1,9 @@
 # Cubos
 
+## Demonstração
+
+Este aplicativo está disponível em [https://cubos.ivanfilho.com](https://cubos.ivanfilho.com).
+
 ## Instalação e Configuração
 
 Clone o repositório:

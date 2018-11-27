@@ -10,7 +10,7 @@ import './App.css'
 class App extends Component {
   render () {
     return (
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <Fragment>
           <header>
             <Link to='/'><h1>Movies</h1></Link>
