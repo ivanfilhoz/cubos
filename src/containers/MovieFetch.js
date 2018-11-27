@@ -1,4 +1,4 @@
-import React, { Component, Fragment } from 'react'
+import React, { Component } from 'react'
 import MovieDetails from '../components/MovieDetails'
 
 const MOVIE_API = 'https://api.themoviedb.org/3/movie'
