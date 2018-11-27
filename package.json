@@ -1,7 +1,7 @@
 {
   "name": "@ivanslf/cubos",
   "version": "0.1.0",
-  "homepage": "https://ivanslf.github.io/cubos",
+  "homepage": "https://cubos.ivanfilho.com/",
   "dependencies": {
     "@cospired/i18n-iso-languages": "^1.0.4",
     "normalize.css": "^8.0.1",
