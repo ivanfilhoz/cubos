@@ -13,10 +13,14 @@ header {
   text-align: center;
 }
 
-h1, h2 {
+h1, h2, h3, h4 {
   margin: 0;
+  font-weight: 100;
+  font-family: Abel;
+}
+
+h1, h2 {
   padding: .5em;
-  font-weight: inherit;
 }
 
 h1 {

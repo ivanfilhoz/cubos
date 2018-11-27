@@ -1,4 +1,124 @@
+.movie-details {
+  margin: 3em 0;
+  background-color: #F2F1F2;
+}
+
+.movie-details header {
+  background-color: #E5E5E5;
+}
+
+.movie-details h2 {
+  font-size: 24pt;
+  color: #2B5295;
+}
+
+.movie-details .release-date {
+  padding: 12pt;
+  padding-top: 0;
+  font: 100 14pt Abel;
+}
+
 .movie-details img {
   display: block;
   width: 100%;
+}
+
+.movie-details .description {
+  padding: 12pt;
+}
+
+.movie-details h3 {
+  font-size: 18pt;
+  color: #2B5295;
+  padding: 5px 0;
+  border-bottom: #00EEE7 2px solid;
+  margin-bottom: .5em;
+}
+
+.movie-details .overview {
+  line-height: 1.25em;
+  padding-bottom: 30px;
+}
+
+.movie-details .info {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.movie-details .table > div {
+  padding: 5px 0;
+}
+
+.movie-details .table h4 {
+  font-size: 18pt;
+  color: #2B5295;
+}
+
+.movie-details .table span {
+  font-size: 10pt;
+}
+
+.movie-details .vote {
+  position: relative;
+  border-radius: 60px;
+  background-color: #2B5295;
+  color: #00EEE7;
+  font: 100 28pt Abel;
+  line-height: 120px;
+  width: 120px;
+  text-align: center;
+}
+
+.movie-details .vote:before {
+  content: ' ';
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  right: 5px;
+  bottom: 5px;
+  border: #00EEE7 7px solid;
+  border-radius: 115px;
+}
+
+@media screen and (min-width: 35.5em) {
+  .movie-details .body {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row-reverse;
+  }
+
+  .movie-details header {
+    padding-left: 24pt;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .movie-details .release-date {
+    padding-top: 22pt;
+  }
+
+  .movie-details .body {
+    padding-left: 24pt;
+  }
+
+  .movie-details .description {
+    padding-right: 18pt;
+  }
+
+  .movie-details .info {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .movie-details .table {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+  }
+
+  .movie-details .vote {
+    align-self: flex-end;
+    margin-top: 24pt;
+  }
 }

@@ -5,7 +5,7 @@ import './Movie.css'
 class Movie extends Component {
   render () {
     return (
-      <section>
+      <section className='movie'>
         <MovieFetch id={this.props.match.params.id} />
       </section>
     )
