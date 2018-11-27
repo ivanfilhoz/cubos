@@ -2,7 +2,7 @@
 
 ## Demonstração
 
-Este aplicativo está disponível em [https://cubos.ivanfilho.com](https://cubos.ivanfilho.com).
+Este aplicativo está disponível em [https://www.ivanfilho.com/cubos](https://www.ivanfilho.com/cubos).
 
 ## Instalação e Configuração
 
