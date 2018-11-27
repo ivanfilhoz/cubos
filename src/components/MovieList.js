@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import moment from 'moment'
 import MovieGenreFetch from '../containers/MovieGenreFetch'
+import MovieDate from './MovieDate'
 import './MovieList.css'
 
 const POSTER_API = 'http://image.tmdb.org/t/p/w200'
@@ -15,7 +15,9 @@ export default ({ data }) => (
           <header>
             <h2>{movie.title}</h2>
             <div className='vote'>{movie.vote_average * 10}%</div>
-            <div className='release-date'>{moment(movie.release_date, 'YYYY-MM-DD').format('DD/MM/YYYY')}</div>
+            <div className='release-date'>
+              <MovieDate date={movie.release_date} />
+            </div>
           </header>
           <div className='overview'>{movie.overview}</div>
           <div className='genres'>

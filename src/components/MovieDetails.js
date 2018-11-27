@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react'
-import moment from 'moment'
 import languages from '@cospired/i18n-iso-languages'
 import MovieGenres from './MovieGenres'
+import MovieDate from './MovieDate'
 import './MovieDetails.css'
 import MovieTrailerFetch from '../containers/MovieTrailerFetch'
 
@@ -15,7 +15,7 @@ export default ({ data: movie }) => (
       <header>
         <h2>{movie.title}</h2>
         <div className='release-date'>
-          {moment(movie.release_date, 'YYYY-MM-DD').format('DD/MM/YYYY')}
+          <MovieDate date={movie.release_date} />
         </div>
       </header>
       <div className='body'>
