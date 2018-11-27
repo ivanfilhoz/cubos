@@ -3,7 +3,7 @@ import moment from 'moment'
 import languages from '@cospired/i18n-iso-languages'
 import MovieGenres from './MovieGenres'
 import './MovieDetails.css'
-import MovieTrailerFetch from '../containers/MovieTrailerFetch';
+import MovieTrailerFetch from '../containers/MovieTrailerFetch'
 
 const POSTER_API = 'http://image.tmdb.org/t/p/w300'
 const formatCurrency = value => new Intl.NumberFormat('pt-BR').format(value)
