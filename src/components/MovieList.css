@@ -77,4 +77,8 @@
   .movie-list img {
     width: 200px;
   }
+
+  .movie-list .description {
+    width: calc(100% - 200px);
+  }
 }

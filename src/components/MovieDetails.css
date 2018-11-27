@@ -82,6 +82,11 @@
   border-radius: 115px;
 }
 
+.movie-trailer {
+  margin-bottom: 3em;
+  text-align: center;
+}
+
 @media screen and (min-width: 35.5em) {
   .movie-details .body {
     display: flex;
