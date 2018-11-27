@@ -44,6 +44,7 @@
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .movie-details .table > div {
@@ -107,18 +108,23 @@
   }
 
   .movie-details .info {
-    flex-direction: column;
-    align-items: stretch;
+    flex-wrap: wrap;
   }
 
   .movie-details .table {
     display: flex;
     justify-content: space-between;
     text-align: center;
+    margin-bottom: 40px;
+    width: 100%;
   }
 
   .movie-details .vote {
     align-self: flex-end;
-    margin-top: 24pt;
+    order: 3;
+  }
+
+  .movie-details .genres {
+    width: calc(100% - 200px);
   }
 }

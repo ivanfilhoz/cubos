@@ -1,6 +1,7 @@
 import React from 'react'
 import moment from 'moment'
 import languages from '@cospired/i18n-iso-languages'
+import MovieGenres from './MovieGenres'
 import './MovieDetails.css'
 
 const POSTER_API = 'http://image.tmdb.org/t/p/w300'
@@ -75,6 +76,9 @@ export default ({ data: movie }) => (
             </div>
           </div>
           <div className='vote'>{movie.vote_average * 10}%</div>
+          <div className='genres'>
+            <MovieGenres data={movie.genres} />
+          </div>
         </div>
       </div>
     </div>

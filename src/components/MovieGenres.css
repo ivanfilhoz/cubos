@@ -1,0 +1,19 @@
+.movie-genres {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.movie-genres li {
+  margin-right: 10px;
+  margin-bottom: 10px;
+  padding: 5px 15px;
+  line-height: 20px;
+  background-color: #FFFFFF;
+  border: #2B5295 1px solid;
+  border-radius: 15px;
+  font-family: Abel;
+  color: #2B5295;
+}

@@ -5,7 +5,7 @@
 Clone o repositório:
 
 ```
-$ git clone https://github.com/ivanslf/cubos
+$ git clone https://github.com/ivanslf/cubos.git
 ```
 
 Para configurar as dependências, use os seguintes comandos:
