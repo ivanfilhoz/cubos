@@ -72,6 +72,7 @@
   .movie-list .item {
     display: flex;
     align-items: flex-start;
+    transition: transform 0.2s ease-out;
   }
 
   .movie-list img {
@@ -80,5 +81,9 @@
 
   .movie-list .description {
     width: calc(100% - 200px);
+  }
+
+  .movie-list .item:hover {
+    transform: scale(1.05);
   }
 }

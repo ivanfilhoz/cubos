@@ -85,7 +85,7 @@ export default ({ data: movie }) => (
         </div>
       </div>
     </div>
-    <div class='movie-trailer'>
+    <div className='movie-trailer'>
       <MovieTrailerFetch id={movie.id} />
     </div>
   </Fragment>

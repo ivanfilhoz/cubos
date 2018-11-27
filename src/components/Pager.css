@@ -36,3 +36,11 @@
   border: #00EEE7 4px solid;
   border-radius: 28px;
 }
+
+.pager span:not(.current) {
+  transition: transform 0.2s ease-out;
+}
+
+.pager span:not(.current):hover {
+  transform: scale(1.5);
+}
